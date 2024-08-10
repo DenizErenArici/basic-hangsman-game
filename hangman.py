@@ -1,6 +1,6 @@
 import random
-from hangsman_words import words
-from hangsman_stages import stages
+from hangman_words import words
+from hangman_stages import stages
 print("Welcome to my hangsman game!!")
 name=input("What is your name?")
 print(f"Nice to meet you {name}.Let's begin!!")
