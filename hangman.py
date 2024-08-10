@@ -21,7 +21,7 @@ true_guesses=[]
 while '_' in word:
     if health==0:
         print("You lose,please try again!")
-    letter=input("Enter a letter: ")
+    letter=input("Enter a letter: ").lower()
     while letter in true_guesses:
         letter=input("You already found this letter,try new one.")
     while letter in wrong_guesses:
